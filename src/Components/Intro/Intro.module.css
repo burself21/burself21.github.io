@@ -1,0 +1,60 @@
+@media (min-height: 1px) {
+    #container {
+        width: 100%;
+        min-height: 80vh;
+        z-index: 0;
+        position: relative;
+        background: url('./bground7.jpg');
+        background-size: cover;
+    }
+
+    #mask {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    min-height: 100%;  
+    opacity: .6; 
+    z-index: 1;
+    background-color: black;
+    }
+
+    #overlay {
+        z-index: 10;
+        position: relative;
+        text-align: center;
+        padding-top: 8vh;
+    }
+
+    #icons {
+        margin-top: 10vh;
+    }
+}
+
+@media (min-height:700px) {
+    #container {
+        min-height: 560px;
+    }
+    
+    #overlay {
+        padding-top: 56px;
+    }
+
+    #icons {
+        margin-top: 35px;
+    }
+}
+
+@media (min-width:320px) {
+}
+
+@media (min-width:1281px) {
+
+}
+
+body {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}

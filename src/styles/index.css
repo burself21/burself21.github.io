@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#outer-navbar {
+  padding: 5vh 0;
+}
+
+#nav-container {
+  margin: 0 2.5vw;
+}
+
+#main-nav, #alt-nav {
+
+}
+
+.nav-item {
+  margin: auto;
+}
+
+.my-nav-button {
+  border-radius: 0px;
+  font-size: 20px;
+}
+
+.my-nav-link, .my-nav-button {
+  font-size: 20px;  
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.my-nav-toggler {
+}
+
+
+@media only screen and (min-width: 992px) {
+.my-nav-button {
+  border-radius: 18px;
+}
+}
+
+.my-nav-link {
+  margin-right: 10px;
+}
+
+#progress {
+  padding: 20px 0px 30px 0px;
+  background-color: white;
+}
+
+#about-main {
+  background-color: 		#66CEE9;
+  bacground-color: rgba(30, 30, 30, 0);
+}
+
+/*.navbar-brand {
+  font-size: 1.7rem;
+} */
+
+#my-nav-brand {
+  font-size: 1.7rem;
+  padding: 0 5px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+/* Intro.js */
+#typewriter-container {
+
+}
+
+.Typewriter {
+  text-align: center;
+}
+#my-typewriter {
+  /*font-size: 30px; */
+}
+
+.Typewriter__cursor, .Typewriter__wrapper {
+  font-size: 36px;
+}

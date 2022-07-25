@@ -1,0 +1,16 @@
+#header {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.project_container {
+    padding-bottom: 75px;
+    padding-top: 30px;
+}
+
+@media (min-width:1050px) {
+    #header {
+
+    }
+}

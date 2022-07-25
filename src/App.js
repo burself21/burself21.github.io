@@ -1,25 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Home from './Pages/Home';
+import OtherProjects from './Pages/OtherProjects';
+import ContactMe from './Pages/ContactMe';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+  // const [x, setX] = useState(val1);
+  // setX(val2);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div id='app-main'>
+        <Switch>
+          <Route exact path="/">
+            <Helmet>
+              <title>Nathan Johns | Home</title>
+           </Helmet>
+            <Home />
+          </Route>
+          <Route path="/home">
+            <Redirect to="/" />
+          </Route>
+          <Route path="/other-projects">
+            <Helmet>
+              <title>Nathan Johns | Other Projects </title>
+           </Helmet>
+            <OtherProjects />
+          </Route>
+          <Route path="/contact-me">
+            <Helmet>
+              <title>Nathan Johns | Contact Me</title>
+           </Helmet>
+            <ContactMe />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

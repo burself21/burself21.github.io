@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a42daee4.chunk.css",
+    "main.js": "/static/js/main.42c00f8a.chunk.js",
+    "main.js.map": "/static/js/main.42c00f8a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a3f74ca6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a3f74ca6.js.map",
+    "static/css/2.92200efa.chunk.css": "/static/css/2.92200efa.chunk.css",
+    "static/js/2.f600640a.chunk.js": "/static/js/2.f600640a.chunk.js",
+    "static/js/2.f600640a.chunk.js.map": "/static/js/2.f600640a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.92200efa.chunk.css.map": "/static/css/2.92200efa.chunk.css.map",
+    "static/css/main.a42daee4.chunk.css.map": "/static/css/main.a42daee4.chunk.css.map",
+    "static/js/2.f600640a.chunk.js.LICENSE.txt": "/static/js/2.f600640a.chunk.js.LICENSE.txt",
+    "static/media/aluminus.63827735.png": "/static/media/aluminus.63827735.png",
+    "static/media/Intro.module.css": "/static/media/bground7.d0571ea9.jpg",
+    "static/media/css_logo.36b2d80f.png": "/static/media/css_logo.36b2d80f.png",
+    "static/media/dota_stats.c35b43a7.png": "/static/media/dota_stats.c35b43a7.png",
+    "static/media/express_logo.632d3c32.svg": "/static/media/express_logo.632d3c32.svg",
+    "static/media/html_logo.f61e377f.png": "/static/media/html_logo.f61e377f.png",
+    "static/media/material_ui_logo.5b2d8a0a.png": "/static/media/material_ui_logo.5b2d8a0a.png",
+    "static/media/node_logo.3afb097c.png": "/static/media/node_logo.3afb097c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3f74ca6.js",
+    "static/css/2.92200efa.chunk.css",
+    "static/js/2.f600640a.chunk.js",
+    "static/css/main.a42daee4.chunk.css",
+    "static/js/main.42c00f8a.chunk.js"
+  ]
+}

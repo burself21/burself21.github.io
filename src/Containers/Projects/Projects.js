@@ -7,7 +7,7 @@ import material_ui_logo from './material_ui_logo.png';
 import node_icon from './node_logo.png';
 import express_icon from './express_logo.svg';
 import flask_logo from './flask_logo.png';
-import angular_logo from './angular_logo.jpg';
+import angular_logo from './angular_logo.svg';
 
 import dota_stats from './dota_stats.png';
 import aluminus from './aluminus.png';

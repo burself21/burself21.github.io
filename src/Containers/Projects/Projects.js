@@ -6,9 +6,12 @@ import react_logo from './react_logo.png';
 import material_ui_logo from './material_ui_logo.png';
 import node_icon from './node_logo.png';
 import express_icon from './express_logo.svg';
+import flask_logo from './flask_logo.png';
+import angular_logo from './angular_logo.jpg';
 
 import dota_stats from './dota_stats.png';
 import aluminus from './aluminus.png';
+import daya_chess from './daya_chess.png';
 
 export default [
     {
@@ -73,5 +76,36 @@ export default [
                 icon: express_icon
             }
         ]
+    },
+
+    {
+        name: 'Daya Chess AI',
+        img: daya_chess,
+        site: "https://daya-chess.wl.r.appspot.com",
+        source: "https://google.com",
+        desc: "The website is a chess app that allows you to play against a currently very poor AI.",
+        techs: [
+            {
+                name: "HTML",
+                icon: html_logo
+            },
+
+            {
+                name: "CSS",
+                icon: css_logo
+            },
+
+            {
+                name: "Flask",
+                icon: flask_logo
+            },
+                
+            {
+                name: "Angular",
+                icon: angular_logo
+            }
+
+        ]
+
     }
 ]

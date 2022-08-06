@@ -1,5 +1,3 @@
-### Source Code ###
+### Nathan Johns ###
 
-*** For Developer Use Only ***
-
-Commits to this repo will be done periodically to serve as a log.
+Thanks for checking out this repo. Built using React!

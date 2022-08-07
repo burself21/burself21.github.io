@@ -43,11 +43,11 @@ export default [
     },
 
     {
-        name: 'Aluminus (In Progress)',
+        name: 'Aluminus',
         img: aluminus,
         site: 'https://aluminus-app.herokuapp.com',
         source: 'https://github.com/burself21/aluminus',
-        desc: 'The website is for an upcoming startup that allows alumni to make more personal donations to students at their alma mater.',
+        desc: 'The website was going to be for an upcoming startup that would allow alumni to make more personal donations to students at their alma mater.',
         techs: [
             {
                 name: "HTML",

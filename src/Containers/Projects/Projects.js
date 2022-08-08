@@ -82,7 +82,7 @@ export default [
         name: 'Daya Chess AI',
         img: daya_chess,
         site: "https://daya-chess.wl.r.appspot.com",
-        source: "https://google.com",
+        source: "https://github.com/burself21/daya-chess",
         desc: "The website is a chess app that allows you to play against a currently very poor AI.",
         techs: [
             {

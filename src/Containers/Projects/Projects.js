@@ -8,12 +8,36 @@ import node_icon from './node_logo.png';
 import express_icon from './express_logo.svg';
 import flask_logo from './flask_logo.png';
 import angular_logo from './angular_logo.svg';
+import vue_logo from './vue_logo.svg';
 
 import dota_stats from './dota_stats.png';
 import aluminus from './aluminus.png';
 import daya_chess from './daya_chess.png';
 
 export default [
+    {
+        name: 'Match Three',
+        img: dota_stats,
+        site: 'http://burself21.github.io/match-three',
+        source: 'https://github.com/burself21/match-three',
+        desc: 'This project is a fun matching game I created based on 羊了个羊',
+        techs: [
+            {
+                name: "HTML",
+                icon: html_logo
+            },
+            {
+                name: "CSS",
+                icon: html_logo
+            },
+            {
+                name: "Vue",
+                icon: vue_logo
+            },
+
+        ]
+    },
+
     {
         name: 'OpenDota API Stats',
         img: dota_stats,

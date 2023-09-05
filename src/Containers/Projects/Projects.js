@@ -13,11 +13,12 @@ import vue_logo from './vue_logo.svg';
 import dota_stats from './dota_stats.png';
 import aluminus from './aluminus.png';
 import daya_chess from './daya_chess.png';
+import match_three from './match_three.png';
 
 export default [
     {
         name: 'Match Three',
-        img: dota_stats,
+        img: match_three,
         site: 'http://burself21.github.io/match-three',
         source: 'https://github.com/burself21/match-three',
         desc: 'This project is a fun matching game I created based on 羊了个羊',
@@ -28,7 +29,7 @@ export default [
             },
             {
                 name: "CSS",
-                icon: html_logo
+                icon: css_logo
             },
             {
                 name: "Vue",

@@ -70,8 +70,8 @@ export default [
     {
         name: 'Aluminus',
         img: aluminus,
-        site: 'https://aluminus-app.herokuapp.com',
-        source: 'https://github.com/burself21/aluminus',
+        site: 'https://aluminus-app-80ab0d3c07b4.herokuapp.com/',
+        source: 'https://github.com/burself21/aluminus-source',
         desc: 'The website was going to be for an upcoming startup that would allow alumni to make more personal donations to students at their alma mater.',
         techs: [
             {
